@@ -1,5 +1,13 @@
-#include <iostream>
+#include "DNG2D/Main.hpp"
 
-int main(int, char**){
-    std::cout << "Hello, from DNG2D-helloworld!\n";
+int main(int, char **)
+{
+    DNG::Init();
+
+    while (DNG::Update())
+    {
+
+    }
+
+    DNG::Shutdown();
 }

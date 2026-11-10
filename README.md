@@ -11,5 +11,8 @@ example setup for using DNG2D
 - grab CMakeLists and CMakePresets from DNG2D's README (change all occurrences of "game" to the name of your project)
 - remember to create an "assets" folder and to put main.cpp into a "src" folder if you plan to just use the provided CMakeLists.txt
 - configure cmake with ">CMake: Configure", select the preset and build! the first time you do this will take a while but it will run pretty quick later
+- use #include "DNG2D/Main.hpp" to gain access to the engine
+- all engine-specific features are contained within the "DNG" namespace
+- see this project for example use cases for all features 
 
 if you run into issues with cmake remember to try deleting cache and possibly even the build directory to refresh things after large changes
